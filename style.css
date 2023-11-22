@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+}
+/* Header and Navigation */
+header {
+    
+
+}
+
+h1 {
+    color:rgb(80, 79, 79);
+    letter-spacing: 10px;
+    word-spacing: 12px;
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Lora', 'serif';
+    font-weight:lighter;
+    margin: 15px;
+}
+
+nav, a {
+    color:rgb(86, 90, 93);
+    text-align: center;
+    margin: 15px;
+    letter-spacing: 4px;    
+    word-spacing: 50px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+a:link {
+    color:rgb(86, 90, 93);
+    text-decoration:none;
+}
+
+a:visited {
+    color: darkslategray;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration: line-through rgb(86, 90, 93);
+}
+
+/*Homepage containers*/
+
+#home-container {
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+}
+
+#kd-photo-container {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-content: center;
+    padding: 30px;
+}
+
+#kd-intro-container {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#kd-photo {
+    width: 75%;
+    border-radius: 50%;
+}
+
+#hi {
+    color:rgb(80, 79, 79);
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 1px;
+}
+
+#opening-blurb {
+    color: rgb(86, 90, 93);
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-top: 1px;
+}
+
+
+footer {
+    padding: 5px;
+    margin: 40px;
+    text-align: center;
+}
+
