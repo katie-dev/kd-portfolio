@@ -90,6 +90,22 @@ a:hover {
     margin-top: 1px;
 }
 
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; 
+  }
+
+  .social-links a:hover {
+    color: #007bff; 
+  }
+
 
 footer {
     padding: 5px;
