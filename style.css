@@ -46,48 +46,31 @@ a:hover {
 
 /*Homepage containers*/
 
-#home-container {
-    display: flex;
-    justify-content:space-between;
-    align-content: center;
-}
-
 #kd-photo-container {
     display: flex;
     flex: 1;
-    justify-content: right;
+    justify-content: center;
     align-content: center;
     padding: 10px;
 }
 
-#kd-intro-container {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex: 1;
-    justify-content: left;
-    align-content: center;
-    flex-direction: column;
-    padding: 10px;
-}
 
 #kd-photo {
-    width: 65%;
+    width: 30%;
     border-radius: 50%;
 }
 
-#hi {
+.text-title {
     color:rgb(80, 79, 79);
     font-size: 2.5rem;
     letter-spacing: 2px;
     margin-bottom: 1px;
 }
 
-#opening-blurb {
+.main-text {
     color: rgb(86, 90, 93);
     font-size: 1.3rem;
     letter-spacing: 1px;
-    margin-top: 1px;
 }
 
 .social-links {
@@ -110,6 +93,16 @@ a:hover {
 footer {
     padding: 5px;
     margin: 40px;
+    text-align: center;
+}
+
+/*ABOUT PAGE containers*/
+
+#about-me {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    flex: 1;  
+    padding: 10px;
     text-align: center;
 }
 
