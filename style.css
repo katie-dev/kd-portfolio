@@ -61,6 +61,7 @@ a:hover {
 }
 
 .text-title {
+    font-family: 'Lato', sans-serif;
     color:rgb(80, 79, 79);
     font-size: 2.5rem;
     letter-spacing: 2px;
@@ -68,6 +69,7 @@ a:hover {
 }
 
 .main-text {
+    font-family: 'Lato', sans-serif;
     color: rgb(86, 90, 93);
     font-size: 1.3rem;
     letter-spacing: 1px;
@@ -96,13 +98,25 @@ footer {
     text-align: center;
 }
 
-/*ABOUT PAGE containers*/
+/*About Page containers*/
 
-#about-me {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+#about-me { 
     flex: 1;  
     padding: 10px;
     text-align: center;
 }
 
+/*Projects Page containers*/
+
+#projects { 
+    flex: 1;  
+    padding: 10px;
+    text-align: center;
+}
+
+/*Contact Page containers*/
+#contact { 
+    flex: 1;  
+    padding: 10px;
+    text-align: center;
+}
