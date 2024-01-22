@@ -57,7 +57,7 @@ a:hover {
     flex: 1;
     justify-content: right;
     align-content: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 #kd-intro-container {
@@ -68,11 +68,11 @@ a:hover {
     justify-content: left;
     align-content: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
 }
 
 #kd-photo {
-    width: 75%;
+    width: 65%;
     border-radius: 50%;
 }
 
