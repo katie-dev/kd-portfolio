@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    font-family: 'Lora', 'serif';
 }
 /* Header and Navigation */
 header {
@@ -18,7 +19,7 @@ h1 {
     margin: 15px;
 }
 
-nav, a {
+nav {
     color:rgb(86, 90, 93);
     text-align: center;
     margin: 15px;
@@ -47,17 +48,16 @@ a:hover {
 /*Homepage containers*/
 
 #kd-photo-container {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-content: center;
-    padding: 10px;
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
 }
 
 
 #kd-photo {
-    width: 30%;
+    width: 35%;
     border-radius: 50%;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
 }
 
 .text-title {
@@ -77,47 +77,70 @@ a:hover {
 
 .social-links {
     text-align: center;
-    margin-top: 20px;
+    margin: 0.5rem;
   }
   
-  .social-links a {
+.social-links a {
     display: inline-block;
-    margin: 0 10px;
-    font-size: 24px;
+    margin: 0.5rem;
+    font-size: 1.5rem;
     color: #333; 
   }
 
-  .social-links a:hover {
+.social-links a:hover {
     color: #007bff; 
   }
 
 
 footer {
-    padding: 5px;
-    margin: 40px;
+    margin: 1rem;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
 /*About Page containers*/
 
-#about-me { 
-    flex: 1;  
-    padding: 10px;
+#about-me {  
+    padding: 1rem;
     text-align: center;
+    display: grid;
 }
 
 /*Projects Page containers*/
 
 #projects { 
-    flex: 1;  
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
 }
 
+#projects-github {
+    text-decoration: none;
+}
+
+
 /*Contact Page containers*/
-#contact { 
-    flex: 1;  
-    padding: 10px;
-    text-align: center;
+
+#contact-section h2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+#contact-div { 
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-div label {
+    flex: 1;
+    flex-basis: 15%;
+    max-width: 15%;
+}
+
+#contact-div input {
+    flex:2;
+    flex-basis: 30%;
+    max-width: 30%;
 }

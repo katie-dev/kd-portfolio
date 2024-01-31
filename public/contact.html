@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1e516e108a.js" crossorigin="anonymous"></script> 
-    <title>Katie Derkach</title>
+    <title>About Me</title>
 </head>
 <body>
     <header>
@@ -19,20 +19,38 @@
     </header>
 
     <nav>
-        <a href="#" id="home-btn">home</a>
+        <a href="./index.html" id="home-btn">home</a>
         <a href="./about.html">about</a>
         <a href="./projects.html">projects</a>
-        <a href="./contact.html">contact</a>
+        <a href="#">contact</a>
     </nav>
-
     <section>
-        <div id="kd-photo-container">
-            <img src="./images/kd-photo.jpg" alt="photo of katie" id="kd-photo">
+        <div id="contact-section">
+            <h2 class="text-title">Contact</h2>
+            <form action="/contact" id="contact" method="post">
+                <div id="contact-div">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+                <div id="contact-div">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div id="contact-div">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div id="contact-div">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div id="contact-div">
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
         </div>
     </section>
-
     <footer>
-        <p>Copyright Notice here</p>
         <div class="social-links">
             <a href="https://github.com/katie-dev" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
@@ -43,8 +61,8 @@
             <a href="https://www.hackerrank.com/profile/katie_edmonds181" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-hackerrank"></i> 
             </a>
-        </div>        
+        </div>
+        <small>&copy; Katie Derkach 2024</small>       
     </footer>
-    <script src="./script.js"></script>
 </body>
 </html>
