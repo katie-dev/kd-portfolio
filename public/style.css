@@ -2,6 +2,11 @@ body {
     font-size: 16px;
     font-family: 'Lora', 'serif';
 }
+
+p {
+    font-size: 1.1rem;
+    font-family:'Lato', sans-serif;
+}
 /* Header and Navigation */
 header {
     
@@ -19,7 +24,7 @@ h1 {
     margin: 15px;
 }
 
-nav {
+.navbar  {
     color:rgb(86, 90, 93);
     text-align: center;
     margin: 15px;
@@ -31,18 +36,20 @@ nav {
 }
 
 
-a:link {
+.navbar a:link {
     color:rgb(86, 90, 93);
     text-decoration:none;
 }
 
-a:visited {
+.navbar a:visited {
     color: darkslategray;
     text-decoration:none;
 }
 
-a:hover {
-    text-decoration: line-through rgb(86, 90, 93);
+.navbar a:hover {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    transition: 0.5s ease-in;
 }
 
 /*Homepage containers*/
@@ -58,6 +65,11 @@ a:hover {
     width: 35%;
     border-radius: 50%;
     box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+#kd-photo:hover {
+    width: 40%;
+    transition:all 1s ease-in-out;
 }
 
 .text-title {
@@ -89,6 +101,8 @@ a:hover {
 
 .social-links a:hover {
     color: #007bff; 
+    font-size: 2rem;
+    transition: all 500ms ease-in-out;
   }
 
 
@@ -98,12 +112,19 @@ footer {
     font-family: 'Lato', sans-serif;
 }
 
-/*About Page containers*/
+/*About Page */
 
 #about-me {  
     padding: 1rem;
     text-align: center;
-    display: grid;
+    display: block;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#about-me p {
+    text-align: justify;
+    line-height:1.5;
 }
 
 /*Projects Page containers*/
@@ -115,13 +136,21 @@ footer {
 
 #projects-github {
     text-decoration: none;
+    font-weight: bolder;
+}
+
+#projects-github:hover {
+    color: blue;
+    font-size: 1.4rem;
+    transition: all 500ms ease-in-out;
 }
 
 
-/*Contact Page containers*/
+/*Contact Page */
 
 #contact-section h2 {
     display:flex;
+    font-family: 'lato' sans-serif;
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
@@ -137,6 +166,7 @@ footer {
     flex: 1;
     flex-basis: 15%;
     max-width: 15%;
+    font-family: 'Lato' ;
 }
 
 #contact-div input {
